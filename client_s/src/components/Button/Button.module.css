@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-width: 170px;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font: 16px Montserrat-Medium, sans-serif;
+    cursor: pointer;
+}
+
+.dark {
+    background: #6246ea;
+    color: #fffffe;
+}
+.dark:hover {
+    box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.light {
+    background: #fffffe;
+    color: #6246ea;
+}
+.light:hover {
+    box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,93 @@
+<svg width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-30 -30 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <filter id="fil">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+            <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 17 -7" result="fil"/>
+        </filter>
+    </defs>
+    <g filter="url(#fil)">
+        <path
+                id="path1"
+                d="M121.5 63C121.5 90.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 93.8858 8 121.5 8C149.114 8 121.5 35.3858 121.5 63Z"
+                fill="transparent"/>
+        <path
+                id="path2"
+                d="M117.5 64.5C117.5 92.1142 93.6142 110 66 110C38.3858 110 10 78.6142 10 51C10 23.3858 69.8858 12 97.5 12C125.114 12 117.5 36.8858 117.5 64.5Z"
+                fill="transparent"/>
+        <path
+                id="path3"
+                d="M95.5 58.5C95.5 86.1142 50.6142 86 23 86C-4.61424 86 1.50004 69.1142 1.50004 41.5C1.50004 13.8857 67.8858 1.5 95.5 1.5C123.114 1.5 95.5 30.8858 95.5 58.5Z"
+                fill="transparent"/>
+        <path
+                id="path4"
+                d="M115.5 42C115.5 69.6142 126.614 95 98.9999 95C71.3857 95 30 88.6142 30 61C30 33.3858 13.3857 8 40.9999 8C68.6142 8 115.5 14.3858 115.5 42Z"
+                fill="transparent"/>
+        <path
+                id="path5"
+                d="M110 51C110 78.6142 110.114 100 82.5 100C54.8858 100 9.99997 78.6142 9.99997 51C9.99997 23.3858 33.8858 1.5 61.5 1.5C89.1142 1.5 110 23.3858 110 51Z"
+                fill="transparent"/>
+        <path
+                id="path6"
+                d="M110 51C110 78.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 72.3858 0.5 100 0.5C127.614 0.5 110 23.3858 110 51Z"
+                fill="transparent"/>
+
+        <circle r="10" fill="#4B0082">
+            <animateMotion dur="27s" repeatCount="indefinite">
+                <mpath xlink:href="#path"/>
+            </animateMotion>
+        </circle>
+        <circle r="10" fill="#4B0082">
+            <animateMotion dur="20s" repeatCount="indefinite">
+                <mpath xlink:href="#path1"/>
+            </animateMotion>
+        </circle>
+        <circle r="13" fill="#4B0082">
+            <animateMotion dur="25s" repeatCount="indefinite">
+                <mpath xlink:href="#path2"/>
+            </animateMotion>
+        </circle>
+        <circle r="8" fill="#4B0082">
+            <animateMotion dur="11s" repeatCount="indefinite">
+                <mpath xlink:href="#path3"/>
+            </animateMotion>
+        </circle>
+        <circle r="11" fill="#4B0082">
+            <animateMotion dur="36s" repeatCount="indefinite">
+                <mpath xlink:href="#path4"/>
+            </animateMotion>
+        </circle>
+        <circle r="15" fill="#4B0082">
+            <animateMotion dur="15s" repeatCount="indefinite">
+                <mpath xlink:href="#path5"/>
+            </animateMotion>
+        </circle>
+        <circle r="7" fill="#4B0082">
+            <animateMotion dur="10s" repeatCount="indefinite">
+                <mpath xlink:href="#path6"/>
+            </animateMotion>
+        </circle>
+        <path
+                id="path"
+                d="M110 51C110 78.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 72.3858 0.5 100 0.5C127.614 0.5 110 23.3858 110 51Z"
+                fill="#6246ea">
+            <animate
+                    attributeName="d"
+                    dur='8s'
+                    repeatCount="indefinite"
+                    values="
+                    M121.5 63C121.5 90.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 93.8858 8 121.5 8C149.114 8 121.5 35.3858 121.5 63Z;
+                    M117.5 64.5C117.5 92.1142 93.6142 110 66 110C38.3858 110 10 78.6142 10 51C10 23.3858 69.8858 12 97.5 12C125.114 12 117.5 36.8858 117.5 64.5Z;
+                    M95.5 58.5C95.5 86.1142 50.6142 86 23 86C-4.61424 86 1.50004 69.1142 1.50004 41.5C1.50004 13.8857 67.8858 1.5 95.5 1.5C123.114 1.5 95.5 30.8858 95.5 58.5Z;
+                    M115.5 42C115.5 69.6142 126.614 95 98.9999 95C71.3857 95 30 88.6142 30 61C30 33.3858 13.3857 8 40.9999 8C68.6142 8 115.5 14.3858 115.5 42Z;
+                    M110 51C110 78.6142 110.114 100 82.5 100C54.8858 100 9.99997 78.6142 9.99997 51C9.99997 23.3858 33.8858 1.5 61.5 1.5C89.1142 1.5 110 23.3858 110 51Z;
+                    M110 51C110 78.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 72.3858 0.5 100 0.5C127.614 0.5 110 23.3858 110 51Z;
+                    M121.5 63C121.5 90.6142 87.6142 101 60 101C32.3858 101 10 78.6142 10 51C10 23.3858 93.8858 8 121.5 8C149.114 8 121.5 35.3858 121.5 63Z;
+                    "
+
+            />
+
+
+        </path>
+    </g>
+</svg>
